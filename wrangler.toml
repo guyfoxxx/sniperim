@@ -7,7 +7,7 @@ compatibility_date = "2026-01-01"
 
 [vars]
 BOT_LOCALE = "fa"
-BOT_USERNAME = "YOUR_BOT_USERNAME" # بدون @
+BOT_USERNAME = "imsniper_bot" # بدون @
 DEFAULT_TIMEFRAME = "H1"
 DEFAULT_STYLE = "swing"
 RISK_PROFILE = "medium" # low/medium/high
@@ -46,16 +46,10 @@ NANOBANANA_API_KEY = ""
 
 [[kv_namespaces]]
 binding = "BOT_KV"
-id = "REPLACE_WITH_KV_ID"
-preview_id = "REPLACE_WITH_KV_PREVIEW_ID"
+id = "f0e7dce44aa94b649ef1bbc89ce0b839"
+preview_id = "2177d8ccea33455cb1878d9e2c2e66ff"
 
-[[durable_objects.bindings]]
-name = "USER_DO"
-class_name = "UserDO"
 
-[[migrations]]
-tag = "v1"
-new_classes = ["UserDO"]
 
 [ai]
 binding = "AI"
