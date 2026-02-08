@@ -1,5 +1,5 @@
 name = "sniperlm-telegram-bot"
-main = "src/index.ts"
+main = "src/index.js"
 compatibility_date = "2026-01-01"
 
 # برای دیپلوی، این‌ها را در داشبورد Cloudflare > Workers > Settings > Variables هم می‌توانید ست کنید.
